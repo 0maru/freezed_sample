@@ -4,6 +4,7 @@ targets:
       freezed:
         generate_for:
           include:
+            - lib/models/*_response.dart
             - lib/models/*_model.dart
         options:
           any_map: true
@@ -14,6 +15,7 @@ targets:
       json_serializable:
         generate_for:
           include:
+            - lib/models/*_response.dart
             - lib/models/*_model.dart
         options:
           any_map: true
