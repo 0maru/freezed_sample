@@ -4,19 +4,19 @@ targets:
       freezed:
         generate_for:
           include:
-            - lib/src/model/*_model.dart
-          options:
-            any_map: true
-            checked: true
-            field_rename: snake
-            explicit_to_json: true
+            - lib/models/*_model.dart
+        options:
+          any_map: true
+          checked: true
+          field_rename: snake
+          explicit_to_json: true
 
       json_serializable:
         generate_for:
           include:
-            - lib/src/model/*_model.dart
-          options:
-            any_map: true
-            checked: true
-            field_rename: snake
-            explicit_to_json: true
+            - lib/models/*_model.dart
+        options:
+          any_map: true
+          checked: true
+          field_rename: snake
+          explicit_to_json: true
